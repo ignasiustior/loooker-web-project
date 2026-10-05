@@ -9,8 +9,8 @@ use App\Http\Controllers\RegisterController;
 // });
 
 Route::get('/', function () {
-    return redirect()->route('login');
-});
+    return view('welcome');
+})->name('home');
 
 
 /*
